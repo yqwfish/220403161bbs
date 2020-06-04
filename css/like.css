@@ -1,0 +1,26 @@
+a:link {
+	font-family: "宋体";
+	font-size: 10pt;
+	color: #000099;
+	text-decoration: none;
+}
+a:active {
+	font-family: "宋体";
+	font-size: 10pt;
+	color: #FF0000;
+}
+
+a:hover {
+	font-family: "宋体";
+	font-size: 10pt;
+	color: #FF0000;
+	text-decoration: underline;
+	background-color: #FFFF66;
+}
+.table {
+	font-family: "宋体";
+	font-size: 10pt;
+	color: #330066;
+	background-color: #6699CC;
+	border: thin double #660066;
+}

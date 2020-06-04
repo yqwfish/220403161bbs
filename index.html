@@ -1,0 +1,179 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><!-- InstanceBegin template="/Templates/welcome.dwt" codeOutsideHTMLIsLocked="false" -->
+<HEAD>
+<!-- InstanceBeginEditable name="doctitle" -->
+<TITLE>欢迎光临&quot;王国之心:记忆之链&quot;</TITLE>
+<!-- InstanceEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- InstanceBeginEditable name="head" -->
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<!-- InstanceEndEditable -->
+<style type="text/css">
+<!--
+body {
+	background-image: url(images/bg2.jpg);
+}
+-->
+</style>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+
+
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</script>
+</HEAD>
+
+<BODY bgcolor="#ffffff" onload="next();MM_preloadImages('images/KH_Index2.jpg','images/Riku2.png','images/Sora2.png','images/luntan.jpg')">
+<div id="Layer1" style="position:absolute; width:284px; height:88px; z-index:1; left: 289px; top: 104px;"><!-- InstanceBeginEditable name="luntan" --><a href="default.asp" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('luntan','','images/luntan.jpg',1)"><img src="images/welcome1.jpg" alt="点此进入&quot;王国之心:记忆之链&quot;论坛" name="luntan" width="300" height="100" border="0"王国之心:记忆之链"论坛"></a><!-- InstanceEndEditable --></div>
+
+<table width="900" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<div id="Layer2" style="position:absolute; width:110px; height:78px; z-index:2; left: 377px; top: 250px;"><!-- InstanceBeginEditable name="lianjie" --><a href="index2.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('lj','','images/KH_Index2.jpg',1)"><img src="images/KH_Index.gif" alt="点击此处进入&quot;王国之心:记忆之链&quot;专题页面!" name="lj" width="145" height="114" border="0"></a><!-- InstanceEndEditable --></div>
+<div id="Layer3" style="position:absolute; width:200px; height:115px; z-index:3; left: 110px; top: 235px;"><!-- InstanceBeginEditable name="Riku" --><a href="Riku.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Riku','','images/Riku2.png',1)"><img src="images/Riku.png" alt="进入Riku篇攻略!" name="Riku" width="240" height="160" border="0">
+</a>
+    
+<!-- InstanceEndEditable --></div>
+<div id="Layer4" style="position:absolute; width:200px; height:115px; z-index:4; left: 546px; top: 235px;"><!-- InstanceBeginEditable name="Sora" --><a href="Sora.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Sora','','images/Sora2.png',1)"><img src="images/Sora.png" alt="进入Sora篇攻略!" name="Sora" width="240" height="160" border="0">
+</a>
+<!-- InstanceEndEditable --></div>
+<script> 
+var x = 50,y = 60 
+var xin = true, yin = true 
+var step = 1 
+var delay = 10 
+var obj=document.getElementById("ad") 
+function floatAD() { 
+var L=T=0 
+var R= document.body.clientWidth-obj.offsetWidth 
+var B = document.body.clientHeight-obj.offsetHeight 
+obj.style.left = x + document.body.scrollLeft 
+obj.style.top = y + document.body.scrollTop 
+x = x + step*(xin?1:-1) 
+if (x < L) { xin = true; x = L} 
+if (x > R){ xin = false; x = R} 
+y = y + step*(yin?1:-1) 
+if (y < T) { yin = true; y = T } 
+if (y > B) { yin = false; y = B } 
+} 
+var itl= setInterval("floatAD()", delay) 
+obj.onmouseover=function(){clearInterval(itl)} 
+obj.onmouseout=function(){itl=setInterval("floatAD()", delay)} 
+</script>
+
+<script language="JavaScript">
+ var pos1=-95;
+ var pos2=-95;
+ var pos3=-95;
+ var pos4=-95;
+
+ var speed1 = Math.floor(Math.random()*10)+2;
+ var speed2 = Math.floor(Math.random()*10)+2;
+ var speed3 = Math.floor(Math.random()*10)+2;
+ var speed4 = Math.floor(Math.random()*10)+2;
+
+  function next() {
+    pos1 += speed1;
+    pos2 += speed2;
+    pos3 += speed3;
+    pos4 += speed4;
+
+    if (pos1 > 795) pos1 = -95;
+    if (pos2 > 795) pos2 = -95;
+    if (pos3 > 795) pos3 = -95;
+    if (pos4 > 795) pos4 = -95;
+
+    if (document.layers) {
+       document.layers[0].left = pos1;
+       document.layers[1].left = pos2;
+       document.layers[2].left = pos3;
+       document.layers[3].left = pos4;
+
+    }
+    else {
+       mouse1.style.left = pos1;
+       mouse2.style.left = pos2;
+       mouse3.style.left = pos3;
+       mouse4.style.left = pos4;
+
+    }
+    window.setTimeout("next();",10);
+ }
+ </script>
+ <div id="mouse1"
+style="HEIGHT: 100px; LEFT: 300px; POSITION: absolute; TOP: 424px; WIDTH: 100px">
+<dd>
+  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="157" height="161">
+    <param name="movie" value="flash/star2.swf">
+    <param name="quality" value="high">
+    <param name="wmode" value="transparent">
+    <embed src="flash/star2.swf" width="157" height="161" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"></embed>
+  </object>
+</dd>
+</div><div id="mouse2"
+style="HEIGHT: 100px; LEFT: 587px; POSITION: absolute; TOP: 139px; WIDTH: 100px">
+<dd>
+  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="146" height="152">
+    <param name="movie" value="flash/star2.swf">
+    <param name="quality" value="high">
+    <param name="wmode" value="transparent">
+    <embed src="flash/star2.swf" width="146" height="152" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"></embed>
+  </object>
+</dd>
+</div><div id="mouse3"
+style="HEIGHT: 63px; LEFT: 200px; POSITION: absolute; TOP: 12px; WIDTH: 121px">
+<dd>
+  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="80" height="74">
+    <param name="movie" value="flash/star.swf">
+    <param name="quality" value="high">
+    <param name="wmode" value="transparent">
+    <embed src="flash/star.swf" width="80" height="74" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"></embed>
+  </object>
+</dd>
+</div><div id="mouse4"
+style="HEIGHT: 42px; LEFT: 117px; POSITION: absolute; TOP: 349px; WIDTH: 89px">
+<dd>
+  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="59" height="55">
+    <param name="movie" value="flash/star.swf">
+    <param name="quality" value="high">
+    <param name="wmode" value="transparent">
+    <embed src="flash/star.swf" width="59" height="55" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"></embed>
+  </object>
+</dd>
+</div>
+</BODY>
+<!-- InstanceEnd --></HTML>

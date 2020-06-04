@@ -1,0 +1,17 @@
+﻿.style1 {	color: #FF0000;
+	font-weight: bold;
+}
+.style3 {color: #990000; font-weight: bold; }
+
+
+.style5 {color: #0000FF}
+.style8 {color: #339900}
+.style9 {color: #33CC00}
+.style10 {color: #33FF00}
+.style11 {color: #0099FF}
+.style14 {color: #00CCFF}
+
+
+body {
+	background-image: url(/images/bg.gif);
+}
